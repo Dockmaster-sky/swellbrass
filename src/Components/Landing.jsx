@@ -37,6 +37,7 @@ function Landing() {
                                     <h2>Standard Package</h2>
                                     <p>30 Minute Lessons</p>
                                     <p>Rate of $60/Hr Plus $10 Travel Fee</p>
+                                    <p>Recommended for: Beginners</p>
                                 </div>
                                 <div className="package__bottom"></div>
                             </div>
@@ -47,6 +48,7 @@ function Landing() {
                                     <h2>Silver Package</h2>
                                     <p>45 Minute Lessons</p>
                                     <p>Rate of $60/Hr Plus $10 Travel Fee</p>
+                                    <p>Recommended for: Experienced 5-12 Graders  </p>
                                 </div>
                                 <div className="package__bottom"></div>
                             </div>
@@ -57,6 +59,7 @@ function Landing() {
                                     <h2>Gold Package</h2>
                                     <p>60 Minute Lessons</p>
                                     <p>Rate of $60/Hr Plus $10 Travel Fee</p>
+                                    <p>Recommended for: Experienced Adults</p>
                                 </div>
                                 <div className="package__bottom"></div>
                             </div>
