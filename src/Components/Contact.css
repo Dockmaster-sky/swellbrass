@@ -1,0 +1,26 @@
+
+.contact__row {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.contact__img--wrapper {
+    width: 600px;
+}
+
+.contact__details {
+    margin-left: 86px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 88px;
+}
+
+.divider {
+    height: 100px;
+    /* background-color: rgba(255, 166, 0, 0.651); */
+}
