@@ -37,7 +37,7 @@ function Landing() {
                                     <h2>Standard Package</h2>
                                     <p>30 Minute Lessons</p>
                                     <p>Rate of $60/Hr Plus $10 Travel Fee</p>
-                                    <p>Recommended for: Beginners</p>
+                                    <p>Recommended for: Beginners, just getting started.</p>
                                 </div>
                                 <div className="package__bottom"></div>
                             </div>
