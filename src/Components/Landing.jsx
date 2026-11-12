@@ -19,16 +19,18 @@ function Landing() {
             <div className="row landing__row">
                 <div className="body landing__body">
                     <div className="pitch__container">
-                        <h1 className="pitch__title">
-                            About Me
-                        </h1>
-                        <p className="pitch__description">
-                           My name is Sam, and I am passionate about playing the french horn. I have been playing for over <span className="orange">fifteen years</span> now, and I have been <span className="orange">playing in orchestras</span> 
-                            &nbsp; for the past five years. I have been continuing my education with a college level teacher, and have begun to take on students of my own.
-                        </p>
-                        <p className="pitch__description">
-                           I would like to offer you the lessons I have learned by my own experience. I offer 3 different student packages.
-                        </p>
+                        <div className="pitch__title--container">
+                            <h1 className="pitch__title">
+                                About Me
+                            </h1>
+                            <p className="pitch__description">
+                            My name is Sam, and I am passionate about playing the french horn. I have been playing for over <span className="orange">fifteen years</span> now, and I have been <span className="orange">playing in orchestras</span> 
+                                &nbsp; for the past five years. I have been continuing my education with a college level teacher, and have begun to take on students of my own.
+                            </p>
+                            <p className="pitch__description">
+                            I would like to offer you the lessons I have learned by my own experience. I offer 3 different student packages.
+                            </p>
+                        </div>
                         <div className="packages__container">
                             <div className="package">
                                 <div className="package__top"></div>
@@ -37,7 +39,7 @@ function Landing() {
                                     <h2>Standard Package</h2>
                                     <p>30 Minute Lessons</p>
                                     <p>Rate of $60/Hr Plus $10 Travel Fee</p>
-                                    <p>Recommended for: Beginners, just getting started.</p>
+                                    <p>Recommended for: Beginners.</p>
                                 </div>
                                 <div className="package__bottom"></div>
                             </div>

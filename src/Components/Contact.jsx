@@ -4,9 +4,9 @@ import horn from "../Assets/frenchHorn.jpg"
 
 function Contact() {
   return (
-    <div>
+    <div className="contact__body">
         <div className="divider"></div>
-        <div className="container">
+        <div className="container contact__container">
             <div className="row contact__row">
                 <div className="contact__img--wrapper">
                     <img src={horn} alt="" className="contact__img" />

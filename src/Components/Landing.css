@@ -52,6 +52,19 @@
 .pitch__container {
     width: 50%;
     padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pitch__title--container {
+width: 100%;
+max-width: 620px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 32px;
 }
 
 .pitch__title {
@@ -99,6 +112,7 @@
 
 .package__body {
     height: 100%;
+    min-height: 250px;
 }
 
 .package__bottom {
