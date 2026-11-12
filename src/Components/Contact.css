@@ -1,11 +1,4 @@
 
-.contact__body {
-    /* background-color: rgba(133, 133, 133, 0.274); */
-}
-
-.contact__container {
-    /* background-color: rgba(133, 133, 133, 0.274); */
-}
 
 .contact__row {
     display: flex;
@@ -34,6 +27,6 @@
 .divider {
     
     border: 1px solid orange;
-    margin-top: 48px;
+    margin-top: 16px;
   
 }
