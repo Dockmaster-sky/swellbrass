@@ -10,7 +10,7 @@ function Landing() {
                 Logo Here
             </div>
             <div className="button__container">
-                <button className="btn header__btn">Contact</button>
+                {/* <button className="btn header__btn">Contact</button> */}
             </div>
         </div>
 
