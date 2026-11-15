@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Contact.css"
 import horn from "../Assets/frenchHorn.jpg"
 
 function Contact() {
@@ -11,12 +10,12 @@ function Contact() {
                 <div className="contact__img--wrapper">
                     <img src={horn} alt="" className="contact__img" />
                 </div>
-                <div className="contact__details">
-                    <h1>
-                        Contact Information:
-                    </h1>
-                    <h2>Email: swellbrass@gmail.com</h2>
-                    <h2>Venmo: @swellbrass</h2>
+                <div className="contact__details--container">
+                    <div className="contact__details">
+                        <h1>Contact Information:</h1>
+                        <h2>Email: swellbrass@gmail.com</h2>
+                        <h2>Venmo: @swellbrass</h2>
+                    </div>
                 </div>
             </div>
         </div>

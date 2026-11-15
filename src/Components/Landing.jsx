@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Landing.css"
 import samImg from "../Assets/sam.jpg"
 
 function Landing() {
@@ -35,33 +34,33 @@ function Landing() {
                             <div className="package">
                                 <div className="package__top"></div>
                                 <div className="package__body">
-                                    <h1>Package 1</h1>
-                                    <h2>Standard Package</h2>
-                                    <p>30 Minute Lessons</p>
+                                    <h1>$30</h1>
+                                    <h2>30 Minutes</h2>
                                     <p>Rate of $60/Hr Plus $10 Travel Fee</p>
-                                    <p>Recommended for: Beginners.</p>
+                                    <p>Recommended ages 8-13</p>
+                                    <p>Recommended skill: Beginner.</p>
                                 </div>
                                 <div className="package__bottom"></div>
                             </div>
                             <div className="package">
                                 <div className="package__top"></div>
                                 <div className="package__body">
-                                    <h1>Package 2</h1>
-                                    <h2>Silver Package</h2>
-                                    <p>45 Minute Lessons</p>
+                                    <h1>$45</h1>
+                                    <h2>45 Minutes</h2>
                                     <p>Rate of $60/Hr Plus $10 Travel Fee</p>
-                                    <p>Recommended for: Experienced 5-12 Graders  </p>
+                                    <p>Recommended ages 14-17</p>
+                                    <p>Recommended skill: Beginner to intermediate.  </p>
                                 </div>
                                 <div className="package__bottom"></div>
                             </div>
                             <div className="package">
                                 <div className="package__top"></div>
                                 <div className="package__body">
-                                    <h1>Package 3</h1>
-                                    <h2>Gold Package</h2>
-                                    <p>60 Minute Lessons</p>
+                                    <h1>$60</h1>
+                                    <h2>1 Hour</h2>
                                     <p>Rate of $60/Hr Plus $10 Travel Fee</p>
-                                    <p>Recommended for: Experienced Adults</p>
+                                    <p>Recommended ages 18+</p>
+                                    <p>Recommended skill: Intermediate/Hobbyist.</p>
                                 </div>
                                 <div className="package__bottom"></div>
                             </div>

@@ -2,6 +2,7 @@
 // packages
 // description details
 // pictures
+// screen resize
 
 import './App.css';
 import Contact from './Components/Contact';
