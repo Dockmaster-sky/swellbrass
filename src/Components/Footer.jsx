@@ -1,5 +1,5 @@
 import React from 'react'
-
+import horn from "../Assets/SwellbrassLogo.png"
 
 function Footer() {
   return (
@@ -8,8 +8,8 @@ function Footer() {
             <div className="footer__container">
                 <div className="footer__logo--container">
                     <div className="footer__logo">
-                        Logo Here
-                        <img src="" alt="" className="footer__logo--img" />
+                        
+                        <img src={horn} alt="" className="logo" />
                         </div>
                 </div>
                 <div className="copyright">

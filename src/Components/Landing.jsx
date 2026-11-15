@@ -1,13 +1,14 @@
 import React from 'react'
 import samImg from "../Assets/sam.jpg"
+import horn from "../Assets/SwellbrassLogo.png"
 
 function Landing() {
   return (
     <div>
         <div className="landing__header">
             <div className="logo__wrapper">
-                <img src="" alt="" className="logo" />
-                Logo Here
+                <img src={horn} alt="" className="logo" />
+                
             </div>
             <div className="button__container">
                 {/* <button className="btn header__btn">Contact</button> */}
@@ -36,7 +37,7 @@ function Landing() {
                                 <div className="package__body">
                                     <h1>$30</h1>
                                     <h2>30 Minutes</h2>
-                                    <p>Rate of $60/Hr Plus $10 Travel Fee</p>
+                                    <p>$10 Travel Fee</p>
                                     <p>Recommended ages 8-13</p>
                                     <p>Recommended skill: Beginner.</p>
                                 </div>
@@ -47,7 +48,7 @@ function Landing() {
                                 <div className="package__body">
                                     <h1>$45</h1>
                                     <h2>45 Minutes</h2>
-                                    <p>Rate of $60/Hr Plus $10 Travel Fee</p>
+                                    <p>$10 Travel Fee</p>
                                     <p>Recommended ages 14-17</p>
                                     <p>Recommended skill: Beginner to intermediate.  </p>
                                 </div>
@@ -58,7 +59,7 @@ function Landing() {
                                 <div className="package__body">
                                     <h1>$60</h1>
                                     <h2>1 Hour</h2>
-                                    <p>Rate of $60/Hr Plus $10 Travel Fee</p>
+                                    <p>$10 Travel Fee</p>
                                     <p>Recommended ages 18+</p>
                                     <p>Recommended skill: Intermediate/Hobbyist.</p>
                                 </div>

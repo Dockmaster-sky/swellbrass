@@ -14,7 +14,7 @@ function Contact() {
                     <div className="contact__details">
                         <h1>Contact Information:</h1>
                         <h2>Email: swellbrass@gmail.com</h2>
-                        <h2>Venmo: @swellbrass</h2>
+                        <h2>Venmo: @imsam0896</h2>
                     </div>
                 </div>
             </div>
